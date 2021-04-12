@@ -20,11 +20,11 @@ import datetime
 #debug 			= False
 debug 			= True
 
-URL = 'http://192.168.2.51:80/device'
+URL = 'http://192.168.1.35:80/device'
 PIN = 1234
 
-mqtt_subTopic 	= "smarthome/roberts/action/#"
-mqtt_pubTopic 	= "smarthome/roberts/state"
+mqtt_subTopic 	= "goodmans/action/#"
+mqtt_pubTopic 	= "goodmans/state"
 
 try:
 	from configparser import ConfigParser
